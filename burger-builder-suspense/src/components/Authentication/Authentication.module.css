@@ -1,0 +1,58 @@
+.auth {
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: dashed 1px lightgray;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.auth .submit {
+    width: auto;
+    background-color: #DAD735;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #966909;
+    margin: 20px 0px 20px 0px;
+    color: #966909;
+    font-family: inherit;
+    font-size: 1em;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px #966909;
+}
+
+.auth .submit:hover, .auth .submit:active {
+    background-color: #b3b62a;
+    border: 1px solid #966909;
+    color: white;
+}
+
+.auth .switch{
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    text-decoration-line: underline;
+    color: #0f0fc4;
+}
+
+.auth .switch:hover,
+.auth .switch:active {
+    color: #2ba1e6;
+}
+
+@media (min-width: 600px) {
+    .auth {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .auth {
+        width: 300px;
+    }
+}

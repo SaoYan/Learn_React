@@ -1,0 +1,1 @@
+There is a separate script *redux-basis.js* that is nothing related to this React APP. Run it to explore Redux itself!  

@@ -1,0 +1,36 @@
+.item .info {
+    width: 100%;
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.info .summary {
+    text-align: left;
+    font-size: large;
+}
+
+.button {
+    width: 35%;
+    background-color: #DAD735;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #966909;
+    margin: 0 5px;
+    color: #966909;
+    font-family: inherit;
+    font-size: 1em;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px #966909;
+}
+
+.button:hover,
+.button:active {
+    background-color: #b3b62a;
+    border: 1px solid #966909;
+    color: white;
+}

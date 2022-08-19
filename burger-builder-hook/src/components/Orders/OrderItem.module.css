@@ -1,0 +1,37 @@
+.item {
+    width: auto;
+    margin: 10px 0px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border: dashed 1px lightgray;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px gray;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+
+.item:hover {
+    background-color: #db8b41;
+}
+
+.item:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 25px;
+    right: -10px;
+    transition: 0.5s;
+}
+
+.item:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.item p {
+    margin: 5px 20px;
+}

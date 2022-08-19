@@ -1,0 +1,44 @@
+.body {
+    width: auto;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body .orders {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.body button {
+    width: auto;
+    max-width: 200px;
+    background-color: #DAD735;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #966909;
+    margin: 20px 3px 0px 0px;
+    color: #966909;
+    font-family: inherit;
+    font-size: 1em;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px #966909;
+}
+
+.body button:hover,
+.body button:active {
+    background-color: #b3b62a;
+    border: 1px solid #966909;
+    color: white;
+}
+
+@media (max-width: 1000px) {
+    .body {
+        width: 90%;
+    }
+}

@@ -1,0 +1,40 @@
+.modal {
+    position: fixed;
+    z-index: 500;
+    width: 70%;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+}
+
+.color {
+    background-color: #CF8F2E;
+    box-shadow: 1px 1px 1px black;
+}
+
+.transparent {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.animation {
+    transition: all 0.5s ease-out;
+}
+
+.open {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.close {
+    transform: translateY(100vh);
+    opacity: 0;
+}
+
+@media (min-width: 600px) {
+    .modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
