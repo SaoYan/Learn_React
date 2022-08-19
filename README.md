@@ -1,1 +1,3 @@
-# Learn_React
+# React
+
+React learning notes and demo application
